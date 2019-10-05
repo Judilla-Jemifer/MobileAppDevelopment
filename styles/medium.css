@@ -1,0 +1,167 @@
+@media only screen and (min-width: 39.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+   
+nav button { 
+      display:none; 
+    }  /* hamburger button does not need to be shown */
+
+nav {
+    background-color: rgba(43, 56, 86 , 0.8);
+    box-shadow: 5px 5px 10px gray;
+    transition: top 0.3s;
+
+}
+ 
+nav ul {
+    overflow: hidden;    
+    background-color: rgba(43, 56, 86 , 0.8);
+    margin-left: 2%;
+   
+  
+
+    
+}
+
+nav ul li {
+    float: left;
+ 
+   
+}
+  
+nav ul li a {
+    border: none;
+    padding: 1.5rem 1rem;
+    color: white;
+  
+   
+    
+    
+
+}
+  
+     
+nav ul.hide {
+    display: block;
+} 
+
+
+
+header figure img {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-left: 2%;
+     margin-right: 5%;
+    margin-bottom: 0;
+    }
+
+
+.quote {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 17px;
+   
+  
+}
+
+  
+ .centered {
+        font-size: 25px; 
+    }
+
+    .donate {
+        font-size: 12px;
+       
+        
+    }
+    
+    .videotext {
+        font-size: 14px;
+    }
+    
+ .gridvideo {
+        display: grid;
+    grid-template-columns: 1fr;
+   width: 70%;
+        margin-left: 15%;
+        
+    }
+    
+footer  {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+ 
+  
+}
+    
+ footer aside {
+   clear: both;
+    
+   
+   margin-top: 0;
+     font-size: 10px;
+    
+}
+    
+    .calcform, .bmicalc {
+        width: 50%;
+        margin-left: 25%;
+        background-color: #F2F4F4;
+        border: 3px solid #f1f1f1;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+    }
+    
+    form.contactform {
+        width: 50%;
+    }
+    
+    form fieldset {
+        width: 100%;
+    }
+    
+    /* web-ad css */
+    
+    .web-ad {
+  
+    display: flex;
+  
+}
+    
+    .web-ad .left {
+    width: 70%;
+    margin-right: 5%;
+       
+  
+}
+    
+    .web-ad .right {
+        margin-right: 5%;
+        width: 30%;
+    }
+    
+    .upper {
+        margin-top: 15px;
+       
+    }
+    
+    .lower p {
+        text-align: left;
+    }
+
+.upper, .lower {
+    width: 100%;
+    margin-left: 0%;
+   margin-right: 0%;  
+   
+}
