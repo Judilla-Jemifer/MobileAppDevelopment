@@ -42,8 +42,38 @@
   </nav>
     
  <main>
-   
+   <div class="left-align">
+     <h2>Javascript: Loops, Conditional Statements, Functions, Variables, Parameters, Arrays, Associative Arrays</h2> 
+ 
+
+     <p>Please see below for my demonstration of each topic mentioned above. The script related to this can be found in week2.js file. Thanks!</p>
      
+     <p>Sample case:</p>
+     <p>We are to input numbers for a loan calculator. The form is shown below. Javascript will create a loop to compute the cumulative payment you are making each year, the cumulative amount going to interest for each year, and the cumulative amount that is going to towards the principal amount.</p>
+     </div>
+     <br/>
+     <form class="calcform">
+     <div><h3 class="center">Javascript Demonstration</h3><br></div>
+
+         Amount borrowed (principal) <input type="text" id="principalinput" size="5"><br>
+         Annual interest rate (example: 0.065) <input type="text" id="rateinput" size="5"><br>
+         Number of years to pay<input type="text" id="nofyearsinput" size="5"><br>
+         Number of payments per year <input type="text" id="pperyearinput" size="5"><br>
+         <br>
+
+         <button type="button" onclick="doPayment()">Compute</button> 
+<div class="output"><input type= 'text' id='paymentMonthly' size='10' readonly></div><br>
+    
+   
+    
+    <div class="output">
+        <input type='text'  id='balance' size='10' readonly></div>
+    
+     
+    
+    <br><br>
+
+</form>
      
      
 </main>
