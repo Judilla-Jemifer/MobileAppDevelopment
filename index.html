@@ -46,49 +46,33 @@
      <h2>Javascript: Loops, Conditional Statements, Functions, Variables, Parameters, Arrays, Associative Arrays</h2> 
  
 
-     <p>Please see below for my demonstration of each topic mentioned above. The script related to this can be found in week2.js file. Thanks!</p>
+     <p>Please see below for my demonstration of the topics mentioned above. The script related to this can be found in week2.js file. Thanks!</p>
      
      <p>Sample case:</p>
-     <p>We are to input numbers for a loan calculator. The form is shown below. Javascript will create a loop to compute the cumulative payment you are making each year, the cumulative amount going to interest for each year, and the cumulative amount that is going to towards the principal amount.</p>
+     <p>We are to input an amount we want to save one time, the interest rate, as well as the number of years we want to save. We also input our expected or desired amount after saving for those number of years. The output will be the savings we have for each year from the first to the last, the total interest we get, and a message saying whether the amount is more than our expected amount or less than that. This is applicable in situations like investing one time with a guaranteed or expected interest rate per year that is compounding monthly.</p>
      </div>
      <br/>
      <form class="calcform">
-     <div><h3 class="center">Javascript Demonstration</h3><br></div>
+        <div><h3 class="center">Javascript Demonstration</h3><br></div>
 
-         Amount borrowed (principal) <input type="text" id="principalinput" size="5"><br>
-         Annual interest rate (example: 0.065) <input type="text" id="rateinput" size="5"><br>
-         Number of years to pay<input type="text" id="nofyearsinput" size="5"><br>
-         Number of payments per year <input type="text" id="pperyearinput" size="5"><br>
-         <br>
+         Amount saved (principal): <input type="text" id="principalinput" size="5"><br>
+         Annual interest rate (example: 0.065): <input type="text" id="rateinput" size="5"><br>
+         Number of years to mature: <input type="text" id="nofyearsinput" size="5"><br>
+         Expected amount to get: <input type="text" id="expectedamount" size="5"><br>
 
          <button type="button" onclick="doPayment()">Compute</button> 
-<div class="output"><input type= 'text' id='paymentMonthly' size='10' readonly></div><br>
-    
-   
-    
-    <div class="output">
-        <input type='text'  id='balance' size='10' readonly></div>
-    
-     
-    
-    <br><br>
-
-</form>
-     
-     
+         <div class="output"><input type= 'text' id='output' size='10' readonly></div><br>
+        <br><br>
+     </form>    
 </main>
     
-<footer class="clearfix">
-    <aside>
-      <p>I am Jemifer Judilla</p>
-        <p>Welcome to My CIT261 Website</p>
-        <p> Email: jjudilla@byui.edu</p>
-          
-    </aside>
-    <p class="footer-bar">&copy;2018 | Today is <span id="currentdate"></span> | Created by Jem Judilla</p> 
-  
-     
-     
+    <footer class="clearfix">
+        <aside>
+            <p>I am Jemifer Judilla</p>
+            <p>Welcome to My CIT261 Website</p>
+            <p> Email: jjudilla@byui.edu</p>      
+        </aside>
+        <p class="footer-bar">&copy;2018 | Today is <span id="currentdate"></span> | Created by Jem Judilla</p>   
   </footer>
 
     <script src="scripts/hamburger.js"></script>
