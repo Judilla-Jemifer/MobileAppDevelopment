@@ -262,12 +262,9 @@ input {
 .output {
     margin-top: 2%;
     overflow: auto;
+    background: white;
 }
-.output input {
-    background-color: lavender;
-    overflow: auto;
-    height: 400px;
-}
+
 
 
 footer  {
