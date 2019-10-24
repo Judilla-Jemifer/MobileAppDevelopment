@@ -1,0 +1,13 @@
+.hovertransition {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: cadetblue;
+    -webkit-transition: width 1s; /* This is for Safari */
+    transition: width 1s;
+    margin: 20px;
+}
+
+.hovertransition:hover {
+    width: 300px;
+}

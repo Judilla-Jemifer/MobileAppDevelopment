@@ -14,7 +14,8 @@
   <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
   <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
   <link href="styles/large.css" rel="stylesheet">
-  <!-- large/wide/desktop views --> 
+    <link href="styles/week6.css" rel="stylesheet">
+
 </head> 
 <body>
    
@@ -35,32 +36,40 @@
   <nav id="navbar" class="navbar">
     <button onclick="toggleNavMenu()">&#9776;</button>
      <ul id="primaryNav" class="hide">
-    	<li class="active"><a href="#active">Week 2</a></li>
+    	<li><a href="index.html">Week 2</a></li>
     	<li ><a href="week3.html">Week 3</a></li>
     	<li><a href="week4.html">Week 4</a></li>
-         <li><a href="week5.html">Week 5</a></li>
-         <li><a href="week6.html">Week 6</a></li>
+        <li><a href="week5.html">Week 5</a></li>
+        <li class="active"><a href="#active">Week 6</a></li>
     </ul>	
   </nav>
     
  <main>
    <div class="left-align">
-     <h2>Javascript: Loops, Conditional Statements, Functions, Variables, Parameters, Arrays, Associative Arrays</h2> 
+     <h2>Designing, Defining, and Triggering <strong>CSS Transitions</strong> without Custom Libraries</h2> 
  
 
-     <p>Please see below for my demonstration of the topics mentioned above. The script related to this can be found in week2.js file. Thanks!</p>
+     <p>Please see below for my demonstration of the topics mentioned above. The script related to this can be found in week6.css file. Thanks!</p>
      
-     <p>Sample case:</p>
-     <p>We are to input an amount we want to save one time, the interest rate, as well as the number of years we want to save. We also input our expected or desired amount after saving for those number of years. The output will be the savings we have for each year from the first to the last, the total interest we get, and a message saying whether the amount is more than our expected amount or less than that. This is applicable in situations like investing one time with a guaranteed or expected interest rate per year that is compounding monthly.</p>
+
+     <p>We need two things to use CSS transitions:</p>
+       <ul class="indent">
+           <li>CSS property where we will add the effect</li>
+           <li>The duration of the effect</li>
+       </ul>
      </div>
      <br/>
      <form class="calcform">
-        <div><h3 class="center">Javascript Demonstration</h3><br></div>
+        <div><h3 class="center">CSS Transitions</h3><br></div>
 
-         Amount saved (principal): <input type="text" id="principalinput" size="5"><br>
-         Annual interest rate (example: 0.065): <input type="text" id="rateinput" size="5"><br>
-         Number of years to mature: <input type="text" id="nofyearsinput" size="5"><br>
-         Expected amount to get: <input type="text" id="expectedamount" size="5"><br>
+        Upon Hover:<br/><br/>
+         
+        Hover on the shape below to see it transition using CSS: 
+         
+         <div class="hovertransition"></div>
+         
+         
+         
 
          <button type="button" onclick="doPayment()">Compute</button> 
          <div class="output">
