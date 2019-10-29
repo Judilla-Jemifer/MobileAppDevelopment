@@ -14,5 +14,72 @@
     height: 300px;
     border-radius: 0px;
     background-color: #5367AB;
+}
 
+.ball {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: cadetblue;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 75px;
+    font-size: 10px;
+    color: white;
+}
+
+.ease {
+    -webkit-transition: margin-left 1s ease;
+    transition: margin-left 1s ease;
+}
+
+
+.linear {
+    -webkit-transition: margin-left 1s linear;
+    transition: margin-left 1s linear;
+}
+
+.easein {
+    -webkit-transition: margin-left 1s ease-in;
+    transition: margin-left 1s ease-in;
+}
+
+.easeout {
+    -webkit-transition: margin-left 1s ease-out;
+    transition: margin-left 1s ease-out;
+}
+
+.easeinout {
+    -webkit-transition: margin-left 1s ease-in-out;
+    transition: margin-left 1s ease-in-out;
+}
+
+.ball:active {
+    margin-left: 250px;
+}
+
+.dease {
+    -webkit-transition: margin-left 1s ease;
+    transition: margin-left 1s ease 1s;
+}
+
+
+.dlinear {
+    -webkit-transition: margin-left 1s linear;
+    transition: margin-left 1s linear 1s;
+}
+
+.deasein {
+    -webkit-transition: margin-left 1s ease-in;
+    transition: margin-left 1s ease-in 1s;
+}
+
+.deaseout {
+    -webkit-transition: margin-left 1s ease-out;
+    transition: margin-left 1s ease-out 1s;
+}
+
+.deaseinout {
+    -webkit-transition: margin-left 1s ease-in-out;
+    transition: margin-left 1s ease-in-out 1s;
 }
