@@ -1,0 +1,30 @@
+.hoveranimation {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: #EDF057;
+    -webkit-animation-name: sun; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webki-animation-iteration-count: infinite;
+    animation-name: sun;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    margin: 20px auto;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes sun {
+  0%   {background-color: #C09921;}
+  25%  {background-color: #C08821;}
+  50%  {background-color: #C44313;}
+  100% {background-color: #EC4608;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color: #C09921;}
+  25%  {background-color: #C08821;}
+  50%  {background-color: #C44313;}
+  100% {background-color: #EC4608;}
+}

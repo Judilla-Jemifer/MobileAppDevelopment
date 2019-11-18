@@ -14,7 +14,7 @@
   <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
   <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
   <link href="styles/large.css" rel="stylesheet">
-    <link href="styles/week6.css" rel="stylesheet">
+    <link href="styles/week7.css" rel="stylesheet">
 
 </head> 
 <body>
@@ -40,33 +40,40 @@
     	<li ><a href="week3.html">Week 3</a></li>
     	<li><a href="week4.html">Week 4</a></li>
         <li><a href="week5.html">Week 5</a></li>
-        <li class="active"><a href="week6.html">Week 6</a></li>
-         <li><a href="week7.html">Week 7</a></li>
+        <li><a href="week6.html">Week 6</a></li>
+         <li class="active"><a href="week7.html">Week 7</a></li>
     </ul>	
   </nav>
     
  <main>
    <div class="left-align">
-     <h2>Designing, Defining, and Triggering <strong>CSS Transitions</strong> without Custom Libraries</h2> 
+     <h2>Designing, Defining, and Triggering <strong>CSS Animations</strong> without Custom Libraries</h2> 
  
 
-     <p>Please see below for my demonstration of the topics mentioned above. The script related to this can be found in week6.css file. Thanks!</p>
+     <p>Please see below for my demonstration of the topics mentioned above. The script related to this can be found in week7.css file. Thanks!</p>
      
 
-     <p>We need two things to use CSS transitions:</p>
+     <p>The properties used for CSS animations are:</p>
        <ul class="indent">
-           <li>CSS property where we will add the effect</li>
-           <li>The duration of the effect</li>
+           <li>@keyframes</li>
+           <li>animation-name</li>
+           <li>animation-duration</li>
+           <li>animation-delay</li>
+           <li>animation-iteration-count</li>
+           <li>animation-direction</li>
+           <li>animation-timing-function</li>
+           <li>animation-fill-mode</li>
+           <li>animation</li>
        </ul>
      </div>
      <br/>
      <form class="calcform">
-        <div><h3 class="center">CSS Transition with Property and Duration</h3><br></div>
+        <div><h3 class="center">Creating CSS Transitions and Animations in CSS and Triggering them with Javascript</h3><br></div>
 
          
-        Hover on the shape below to see it transition using CSS: 
+        Click on the button below to see the shape animate using CSS: 
          
-         <div class="hovertransition"></div>
+         <div class="hoveranimation"></div>
          
         <br><br>
      </form>   
@@ -75,32 +82,7 @@
          Aside from property and time duration of the transition, we can also add timing function and delay of the transition. 
      </p>
      
-      <form class="calcform"><br/>
-        <div><h3 class="center">CSS Transitions with Timing Properties</h3><br></div>
-
-         
-       Click and hold on the circles below to see it transition using CSS timing function: <br/><br/>
-         
-         <div class="ball ease">ease</div>
-          <div class="ball linear">linear</div>
-          <div class="ball easein">ease-in</div>
-          <div class="ball easeout">ease-out</div>
-          <div class="ball easeinout">ease-in-out</div>
-         
-        <br><br>
-     </form> 
-     <form class="calcform"><br/>
-        <div><h3 class="center">CSS Transitions with Timing and Delay Properties</h3><br></div>
-     Now let's add 1s delay before the transtion takes effect. Click and hold on the circles below to see it transition using CSS timing with delay properties: <br/><br/>
-         
-         <div class="ball dease">ease</div>
-          <div class="ball dlinear">linear</div>
-          <div class="ball deasein">ease-in</div>
-          <div class="ball deaseout">ease-out</div>
-          <div class="ball deaseinout">ease-in-out</div>
-         
-        <br><br>
-     </form> 
+     
 </main>
     
     <footer class="clearfix">

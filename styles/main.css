@@ -587,3 +587,7 @@ div.left, div.right {
 .underline {
     text-decoration: underline;
 }
+
+.bottommargin {
+    margin-bottom: 20px;
+}

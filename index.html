@@ -40,6 +40,7 @@
     	<li><a href="week4.html">Week 4</a></li>
          <li><a href="week5.html">Week 5</a></li>
          <li><a href="week6.html">Week 6</a></li>
+          <li><a href="week7.html">Week 7</a></li>
     </ul>	
   </nav>
     
@@ -52,7 +53,17 @@
      
      <p>Sample case:</p>
      <p>We are to input an amount we want to save one time, the interest rate, as well as the number of years we want to save. We also input our expected or desired amount after saving for those number of years. The output will be the savings we have for each year from the first to the last, the total interest we get, and a message saying whether the amount is more than our expected amount or less than that. This is applicable in situations like investing one time with a guaranteed or expected interest rate per year that is compounding monthly.</p>
-     </div>
+   
+       
+    <p>The first javascript demonstration below covers the following topics: </p>
+       <ul class="indent">
+           <li>Loops</li>
+           <li>Conditional Statements</li>
+           <li>Functions</li>
+           <li>Variables</li>
+           <li>Parameters</li>
+       </ul>
+     <p>There are 3 Compute buttons to show the answers using different kinds of loops.</p>
      <br/>
      <form class="calcform">
         <div><h3 class="center">Javascript Demonstration</h3><br></div>
@@ -62,14 +73,47 @@
          Number of years to mature: <input type="text" id="nofyearsinput" size="5"><br>
          Expected amount to get: <input type="text" id="expectedamount" size="5"><br>
 
-         <button type="button" onclick="doPayment()">Compute</button> 
+         <button type="button" onclick="doPayment()">Compute using For Loop</button><br/><br/>
+         <button type="button" onclick="doPaymentWhile()">Compute using While Loop</button><br/><br/>
+         <button type="button" onclick="doPaymentDoWhile()">Compute using Do-While Loop</button>
          <div class="output">
              <p id='output'></p>
              <p id='message'></p>
              
          </div><br>
-        <br><br>
-     </form>    
+    
+     </form>   
+      <p>The javascript demonstration below covers the following topics: </p>
+       <ul class="indent">
+           <li>Arrays - a variable that can hold more than one value at one time</li>
+           <li>Associative Arrays - There are numbered indexes</li>
+       </ul>
+       <p>To demonstrate how arrays and associate arrays work, there is a demonstration of this javascript capability below.</p>
+       
+         <form class="calcform">
+        <div><h3 class="center">Javascript Demonstration</h3><br></div>
+
+         There is an array associated on this section of the page. You can access the array by clicking on the corresponsing button.<br/><br/>
+
+         <button type="button" onclick="showarray()">Show Array</button><br/><br/>
+             
+             <div class="output">
+             <p id='arrayoutput'></p>
+            </div><br>
+             
+        After getting the array, you can try to add more on the list of array by entering the text below and clicking the Add button.
+             
+        <input type="text" id="pusharray"><br/>
+        <button class="bottommargin" type="button" onlick="addtolist()">Add</button>
+         
+      
+         
+             
+        
+    
+     </form>  
+       </div>
+     
 </main>
     
     <footer class="clearfix">
