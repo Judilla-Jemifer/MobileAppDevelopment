@@ -98,14 +98,19 @@
          <button type="button" onclick="showarray()">Show Array</button><br/><br/>
              
              <div class="output">
+                 <p>List of currencies:</p>
              <p id='arrayoutput'></p>
             </div><br>
              
-        After getting the array, you can try to add more on the list of array by entering the text below and clicking the Add button.
+        Each item in array has an index associated with it. By default, the first item is 0, and the next one is 1, and so on and so forth. For instance, each currency item in the above list has an index and we can get the value of that certain index by picking a number between 0-5 below.
+             Please type the index number below (0-5).
+            <input type="text" id="indexnumber"><br/>
+            <button type="button" onclick="showindex()">Show Index Value</button><br/><br/> 
              
-        <input type="text" id="pusharray"><br/>
-        <button class="bottommargin" type="button" onlick="addtolist()">Add</button>
-         
+            <div class="output">
+             
+             <p id='indexoutput'></p>
+            </div><br>
       
          
              

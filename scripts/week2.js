@@ -121,17 +121,27 @@ while (t <= years);
    document.getElementById("message").innerHTML = infomsg;
 }
 
+ var currency, message, length, i;
+    currency = ["USD", "CAD", "AUD" , "PHP", "GBP", "JPY"];
+    length = currency.length;   
+
 function showarray() {
-    var currency, message, length, i;
-    var currency = ["USD", "CAD", "AUD" , "PHP", "GBP", "JPY"];
-    length = currency.length;
+    
     
     message = "<ul>";
     for (i=0; i < length; i++) {
         message += "<li>" + currency[i] + "</li>";
     }
     message += "</ul>";
+    
     document.getElementById("arrayoutput").innerHTML = message;
+}
+
+
+function showindex() {
+    var n = parseFloat(document.getElementById('indexnumber').value);
+        
+    document.getElementById("indexoutput").innerHTML = currency[n];     
 }
  
 
