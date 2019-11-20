@@ -1,3 +1,5 @@
+
+
 function doPayment() {
     var saved = parseFloat(document.getElementById('principalinput').value);
     var rate = parseFloat(document.getElementById('rateinput').value);
@@ -143,6 +145,15 @@ function showindex() {
         
     document.getElementById("indexoutput").innerHTML = currency[n];     
 }
+
+
+
+
+
+
+
+
+
  
 
 

@@ -35,8 +35,8 @@
   <nav id="navbar" class="navbar">
     <button onclick="toggleNavMenu()">&#9776;</button>
      <ul id="primaryNav" class="hide">
-    	<li><a href="index.html">Week 2</a></li>
-    	<li class="active"><a href="week3.html">Week 3</a></li>
+    	<li><a href="index.html">Topic 1</a></li>
+    	<li class="active"><a href="topic2.html">Topic 2</a></li>
     	<li><a href="week4.html">Week 4</a></li>
          <li><a href="week4.html">Week 5</a></li>
          <li><a href="week4.html">Week 6</a></li>
@@ -45,10 +45,38 @@
   </nav>
     
  <main>
-   
+   <div class="left-align">
+<h2>Javascript Objects: Object Creation Functions, Inheritance, Properties, Methods, Instantation</h2>
+       
+       <p>When we want to represent a thing in our code, we use objects. It can be a person, a vehicle, or any item we want to be defined with a set of characteristics.</p>
+       <p>The demonstration below is done using javascript objects covering all the topics mentioned above. The file can be found in week2.js.</p>
+       <p>In this case, we are dealing with currency and we'll make each currency an object using different chracteristics such as name, code, country of origin, and value against USD</p>
+       
+        <form class="calcform">
+        <div><h3 class="center">Javascript Demonstration</h3><br></div>
 
+         There is an object associated on this section of the page. You can access the object by clicking on the corresponsing button.<br/><br/>
 
+         
+             
+             <div class="output">
+             
+             <p id='objectoutput'></p>
+            </div><br>
+            
+             Now it's time for you to create your own currency details. Please fill out the following details:<br/><br/>
+            <input type="text" id="nameinput" placeholder="Please input the currency name">
+            <input type="text" id="codeinput" placeholder="Please input the currency code">
+            <input type="text" id="countryinput" placeholder="Please input the country">
+            <input type="number" step="0.01" id="valueinput" placeholder="Please input its value against USD"><br/><br/>
+             <button type="button" onclick="updateobject()">Update</button><br/><br/>
+            <div class="output">
+             
+             <p id='updateoutput'></p>
+            </div><br>
+        </form> 
 
+</div>
      
 </main>
     
@@ -69,6 +97,7 @@
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
      <script src="scripts/scroll.js"></script>
+    <script src="scripts/topic2.js"></script>
   
   
 
