@@ -2,10 +2,10 @@ var curr = {
   name: "Philippine Peso",
   code: "PhP",
   country: "Philippines",
-  value: 0.02
+  value: 50.92
 };
 
-var currencymsg = curr.name + " is also known as " + curr.code + ". It is used in the " + curr.country + " and has a value of " + curr.value + " against the USD";
+var currencymsg = curr.name + " is also known as " + curr.code + ". It is used in the " + curr.country + " and has a value of " + curr.value + " for every 1 USD.";
 document.getElementById("objectoutput").innerHTML = currencymsg;
 
 
@@ -21,6 +21,6 @@ function updateobject() {
     curr.country = incountry;
     curr.value = invalue;
     
-    document.getElementById("updateoutput").innerHTML = curr.name + " is also known as " + curr.code + ". It is used in the " + curr.country + " and has a value of " + curr.value + " against the USD";
+    document.getElementById("updateoutput").innerHTML = curr.name + " is also known as " + curr.code + ". It is used in the " + curr.country + " and has a value of " + curr.value + " for every 1 USD.";
 }
 
