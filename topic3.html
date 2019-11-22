@@ -35,21 +35,61 @@
   <nav id="navbar" class="navbar">
     <button onclick="toggleNavMenu()">&#9776;</button>
      <ul id="primaryNav" class="hide">
-    	<li><a href="index.html">Week 2</a></li>
-    	<li><a href="week3.html">Week 3</a></li>
-    	<li class="active"><a href="week4.html">Week 4</a></li>
-         <li><a href="week5.html">Week 5</a></li>
-         <li><a href="week6.html">Week 6</a></li>
-          <li><a href="week7.html">Week 7</a></li>
+    	<li><a href="index.html">Topic 1</a></li>
+    	<li><a href="topic2.html">Topic 2</a></li>
+    	<li class="active"><a href="topic3.html">Topic 3</a></li>
+         <li><a href="topic4.html">Topic 4</a></li>
+         <li><a href="topic5.html">Topic 5</a></li>
+          <li><a href="topic6.html">Topic 6</a></li>
+         <li><a href="topic7.html">Topic 7</a></li>
+         <li><a href="topic8.html">Topic 8</a></li>
+         <li><a href="topic9.html">Topic 9</a></li>
+         <li><a href="topic10.html">Topic 10</a></li>
+         <li><a href="topic11.html">Topic 11</a></li>
+         <li><a href="topic12.html">Topic 12</a></li>
+         <li><a href="topic13.html">Topic 13</a></li>
     </ul>	
   </nav>
     
  <main>
    
+<div class="left-align">
+<h2>JSON Parse, Stringify</h2>
+       
+       <p>JSON is commonly used when we exchange data between servers. When we receive data from a server, it is always a string. We parse it to make that string a Javascript object using JSON.parse(). The Javascript file associate in this page can be found in topic3.js.</p> <br/><br/>
+       
+        <form class="calcform">
+        <div><h3 class="center">Javascript Demonstration</h3><br></div>
+
+            
+             On the backend, I have parsed strings to become objects. They are retrieved using the object name and the property of each value. You can click the button below to see the data we have. <br/><br/>
+            
+             <button type="button" onclick="parseobjectAU()">Get parsed AUD info</button><br/><br/>
+            
+            <button type="button" onclick="parseobjectPHP()">Get parsed PHP info</button><br/><br/>
+           
+            <div class="output">
+             
+             <p id='parseoutput'></p>
+            </div><br>
+            
+             Now, let's try to do the opposite of parse which is to stringify. From the word itself, we are making objects into strings.<br/><br/>
+            
+            It's time for you to create your own currency details. Please fill out the following:<br/><br/>
+            <input type="text" id="nameinput" placeholder="Please input the currency name">
+            <input type="text" id="codeinput" placeholder="Please input the currency code">
+            <input type="text" id="countryinput" placeholder="Please input the country">
+            <input type="number" step="0.01" id="valueinput" placeholder="Please input its value against 1 USD"><br/><br/>
+             <button type="button" onclick="stringifyobject()">Show Strings</button><br/><br/>
+            <div class="output">
+             
+             <p id='stringoutput'></p>
+            </div><br>
+        </form>  
      
      
-     
-</main>
+     </div>
+    </main>
     
 <footer class="clearfix">
     <aside>
@@ -68,6 +108,7 @@
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
      <script src="scripts/scroll.js"></script>
+    <script src="scripts/topic3.js"></script>
   
   
 

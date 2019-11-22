@@ -62,9 +62,9 @@
         <form class="calcform">
         <div><h3 class="center">Javascript Demonstration</h3><br></div>
 
-         There is an object associated on this section of the page. You can access the object by clicking on the corresponsing button.<br/><br/>
+         There is an object associated on this section of the page. You can access the object properties and their values by clicking on the corresponsing button.<br/><br/>
 
-         
+         <button type="button" onclick="showObject()">Show Object</button><br/><br/>
              
              <div class="output">
              
@@ -75,8 +75,11 @@
             <input type="text" id="nameinput" placeholder="Please input the currency name">
             <input type="text" id="codeinput" placeholder="Please input the currency code">
             <input type="text" id="countryinput" placeholder="Please input the country">
-            <input type="number" step="0.01" id="valueinput" placeholder="Please input its value against USD"><br/><br/>
-             <button type="button" onclick="updateobject()">Update</button><br/><br/>
+            <input type="number" step="0.01" id="valueinput" placeholder="Please input its value against 1 USD"><br/><br/>
+             <button type="button" onclick="updateobject()">Update Using Object Create Function</button><br/><br/>
+            
+            <button type="button" onclick="inheritance()">Show Message Using Inheritance</button><br/><br/>
+           
             <div class="output">
              
              <p id='updateoutput'></p>
