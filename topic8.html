@@ -14,7 +14,7 @@
   <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
   <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
   <link href="styles/large.css" rel="stylesheet">
-    <link href="styles/week7.css" rel="stylesheet">
+    <link href="styles/topic8.css" rel="stylesheet">
 
 </head> 
 <body>
@@ -54,40 +54,35 @@
     
  <main>
    <div class="left-align">
-     <h2>Designing, Defining, and Triggering <strong>CSS Animations</strong> without Custom Libraries</h2> 
+     <h2>Creating CSS3 Transitions and Animations in CSS and Triggering them with Javascript</h2> 
  
 
-     <p>Please see below for my demonstration of the topics mentioned above. The script related to this can be found in week7.css file. Thanks!</p>
+     <p>Please see below for my demonstration of the topics mentioned above. The script related to this can be found in topic8.css file. This is similar with animation done in Topic 13 but this one will start with a Javascript trigger using a button. Please press the buttons below to start or stop the CSS transitions and animations. Thanks!</p>
      
 
-     <p>The properties used for CSS animations are:</p>
-       <ul class="indent">
-           <li>@keyframes</li>
-           <li>animation-name</li>
-           <li>animation-duration</li>
-           <li>animation-delay</li>
-           <li>animation-iteration-count</li>
-           <li>animation-direction</li>
-           <li>animation-timing-function</li>
-           <li>animation-fill-mode</li>
-           <li>animation</li>
-       </ul>
+    
      </div>
      <br/>
-     <form class="calcform">
-        <div><h3 class="center">Creating CSS Transitions and Animations in CSS and Triggering them with Javascript</h3><br></div>
+     <section class="calcform">
+        <div><h3 class="center">CSS Animations Example</h3><br></div>
+         <div class="trafficlight">
+         <div id="animationone"></div>
+         <div id="animationtwo"></div>
+         <div id="animationthree"></div>
+           
+         </div>
+         <br/><br/>
+         <div class="center">
+         <button class=btn onclick="startanimate()">Start</button> 
+             <button class=btn onclick="stopanimate()">Stop</button> 
+        
+         </div>
 
          
-         
-         
-         <div class="hoveranimation"></div>
-         
         <br><br>
-     </form>   
-     
-     <p>
-         Aside from property and time duration of the transition, we can also add timing function and delay of the transition. 
-     </p>
+     </section>   
+     <p></p>
+
      
      
 </main>
@@ -104,7 +99,8 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/scroll.js"></script>
-    <script src="scripts/week2.js"></script>
+    <script src="scripts/topic8.js"></script>
+
   
 </body>
 </html>

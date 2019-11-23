@@ -1,4 +1,13 @@
-.hoveranimation {
+#animationone {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: red;
+    margin: 20px auto;
+
+}
+
+.add1 {
     width: 150px;
     height: 150px;
     border-radius: 75px;
@@ -29,7 +38,17 @@
   100% {background-color: red;}
 }
 
-.hoveranimation2 {
+#animationtwo {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: orange;
+    margin: 20px auto;
+
+}
+
+
+.add2 {
     width: 150px;
     height: 150px;
     border-radius: 75px;
@@ -60,7 +79,17 @@
   100% {background-color: dimgray;}
 }
 
-.hoveranimation3 {
+#animationthree {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: green;
+    margin: 20px auto;
+
+}
+
+
+.add3 {
     width: 150px;
     height: 150px;
     border-radius: 75px;

@@ -1,0 +1,67 @@
+
+
+.topic 12 {
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container {
+    height: 50vmin;
+    width: 50vmin;
+    background-color: #296EB6;
+    margin: auto;
+}
+
+. .container-two {
+    padding: 1vmin;
+    
+}
+
+{
+    box-sizing: border-box;
+}
+	
+
+.container-two {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.morphing-circle {
+height: 25%;
+    width: 25%;
+    background-color:darkred;	
+    border-radius: 50%;
+    transition: border-radius .5s ease, 
+                background-color .5s ease, 
+                transform .5s ease .5s;
+}
+.container-two:hover .morphing-circle {
+    border-radius: 0;
+    background-color:  white;
+    transform: rotate(90deg);
+}
+
+@keyframes morphing-circle-square {
+    0% {border-radius: 50%}
+    25% { 
+        border-radius: 25%;
+        background-color: darkred;
+    }
+    50% { 
+        border-radius: 0%;
+        background-color: white;
+        transform: rotate(0deg);
+    }
+    75% { 
+        border-radius: 0%;
+        background-color: aqua;
+        transform: rotate(90deg);   
+    }
+    100% { 
+        border-radius: 50%;
+        background-color: aqua;
+        transform: rotate(180deg);
+    }
+}
