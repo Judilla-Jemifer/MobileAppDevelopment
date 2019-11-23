@@ -126,3 +126,16 @@
     border-radius: 25% 25%;
     margin: 0 25px;
 }
+
+.btn {
+    padding: 20px 30px;
+    background-color: #17202A;
+    border: none;
+    color: white;
+    text-align: center;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.btn:hover {
+   opacity: 1;
+}
