@@ -60,20 +60,28 @@
      
      </div>
      <br/>
-     <form class="calcform">
+     <section class="calcform">
         <div><h3 class="center">Javascript and CSS Demonstrations</h3><br></div>
 
          
-        Click on the button below to see the shape animate using CSS: 
+        Click on a button below to manipulate CSS class properties of using Javascript. <br/><br/>
          
-         <div class="hoveranimation"></div>
+         <div class="trafficlight">
+         <div id="m1" class="firstlight"></div>  
+         <div id="m2" class="secondlight"></div>
+         <div id="m3" class="thirdlight"></div>
+         </div>
+         <br/><br/>
+         <div class="center">
+         <button class="btn" onclick="manipulatecss()">Manipulate Using Javascript</button><br/><br/>
+         <button class="btn" onclick="restorecss()">Restore to Original CSS</button> 
+        
+         </div>
          
         <br><br>
-     </form>   
+     </section>   
      
-     <p>
-         Aside from property and time duration of the transition, we can also add timing function and delay of the transition. 
-     </p>
+   
      
      
 </main>
