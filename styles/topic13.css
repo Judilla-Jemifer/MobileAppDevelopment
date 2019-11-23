@@ -1,0 +1,99 @@
+.hoveranimation {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: red;
+    -webkit-animation-name: first; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webki-animation-iteration-count: infinite;
+    animation-name: first;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin: 20px auto;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes first {
+   0%   {background-color: red;}
+  25%  {background-color: dimgray;}
+  50%  {background-color: dimgray;}
+  100% {background-color: red;}
+}
+
+/* Standard syntax */
+@keyframes first {
+  0%   {background-color: red;}
+  25%  {background-color: dimgray;}
+  50%  {background-color: dimgray;}
+  100% {background-color: red;}
+}
+
+.hoveranimation2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: green;
+    -webkit-animation-name: second; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webki-animation-iteration-count: infinite;
+    animation-name: second;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin: 20px auto;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes second {
+  0%   {background-color: dimgray;}
+  25%  {background-color: dimgray;}
+  50%  {background-color: orange;}
+  100% {background-color: dimgray;}
+}
+
+/* Standard syntax */
+@keyframes second {
+   0%   {background-color: dimgray;}
+  25%  {background-color: dimgray;}
+  50%  {background-color: orange;}
+  100% {background-color: dimgray;}
+}
+
+.hoveranimation3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: orange;
+    -webkit-animation-name: third; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webki-animation-iteration-count: infinite;
+    animation-name: third;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin: 20px auto;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes third {
+  0%   {background-color: dimgray;}
+  25%  {background-color: green;}
+  50%  {background-color: dimgray;}
+  100% {background-color: dimgray;}
+}
+
+/* Standard syntax */
+@keyframes third {
+ 0%   {background-color: dimgray;}
+  25%  {background-color: green;}
+  50%  {background-color: dimgray;}
+  100% {background-color: dimgray;}
+}
+
+.trafficlight {
+    background-color: #211B09;
+    padding: 20px 0;
+    border-radius: 25% 25%;
+    margin: 0 25px;
+}

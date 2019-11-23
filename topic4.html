@@ -35,19 +35,48 @@
   <nav id="navbar" class="navbar">
     <button onclick="toggleNavMenu()">&#9776;</button>
      <ul id="primaryNav" class="hide">
-    	<li><a href="index.html">Week 2</a></li>
-    	<li><a href="week3.html">Week 3</a></li>
-    	<li><a href="week4.html">Week 4</a></li>
-         <li class="active"><a href="week5.html">Week 5</a></li>
-         <li><a href="week6.html">Week 6</a></li>
-          <li><a href="week7.html">Week 7</a></li>
+    	<li><a href="index.html">Topic 1</a></li>
+    	<li><a href="topic2.html">Topic 2</a></li>
+    	<li><a href="topic3.html">Topic 3</a></li>
+         <li class="active"><a href="topic4.html">Topic 4</a></li>
+         <li><a href="topic5.html">Topic 5</a></li>
+          <li><a href="topic6.html">Topic 6</a></li>
+         <li><a href="topic7.html">Topic 7</a></li>
+         <li><a href="topic8.html">Topic 8</a></li>
+         <li><a href="topic9.html">Topic 9</a></li>
+         <li><a href="topic10.html">Topic 10</a></li>
+         <li><a href="topic11.html">Topic 11</a></li>
+         <li><a href="topic12.html">Topic 12</a></li>
+         <li><a href="topic13.html">Topic 13</a></li>
     </ul>	
   </nav>
     
  <main>
    
      
+  <div class="left-align">
+<h2>AJAX requesting a JSON File</h2>
+       
+       <p>AJAX stands for Asynchronous Javascript And XML. It is not a programming language. It uses a combination of XMLHttpRequest that is already built-in in the browser and used to request data. It also uses Javascript and HTML DOM to display or use data. However, this page will only focus on using AJAX to request a JSON file. To request JSON file, we can use GET or POST. GET is faster but POST is better when dealing with large data or using user input.</p> <br/><br/>
+       
+        <form class="calcform">
+        <div><h3 class="center">Javascript Demonstration</h3><br></div>
+
+            
+             Please click the button below to request a JSON file using AJAX and show it on the screen. This button requests on some data on a website by getting the name of the business person and the business name. They are random and will generate random names on each click. The associated javascript is on topic4.js file. <br/><br/>
+            
+             <button type="button" onclick="requestJSON()">Request JSON file</button><br/><br/>
+           
+            <div class="output">
+             
+             <p id='jsonoutput'></p>
+            </div><br>
+            
+             
+        </form>  
      
+     
+     </div>   
      
 </main>
     
@@ -68,6 +97,7 @@
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
      <script src="scripts/scroll.js"></script>
+    <script src="scripts/topic4.js"></script>
   
   
 

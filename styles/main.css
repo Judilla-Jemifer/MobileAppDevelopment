@@ -592,3 +592,16 @@ div.left, div.right {
 .bottommargin {
     margin-bottom: 20px;
 }
+
+.htmlvideo, .htmlaudio {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.htmlcanvas {
+    width: 500px;
+    height: 250px;
+    border: 2px solid gray;
+    background-color: white;
+}
+
