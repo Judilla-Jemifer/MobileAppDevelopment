@@ -57,21 +57,29 @@
      <h2>Local Storage API, Storing and Retrieving Simple Data, Arrays, Associative Arrays and Objects</h2> 
  
 
-     <p>Please see below for my demonstration of the topics mentioned above. The script related to this can be found in week6.css file. Thanks!</p>
+     <p>Please see below for my demonstration of the topics mentioned above. The script related to this can be found in topic5.css file. Thanks!</p>
      
-
      
-     <form class="calcform">
+     
+     <section class="calcform">
         <div><h3 class="center">Javascript Demonstration</h3><br></div>
-
-         
-        Hover on the shape below to see it transition using CSS: 
-         
-         <div class="hovertransition"></div>
-         
+        I have stored some information in the local storage about me -- my name, birth year, birth month, and number of kids. Click on each button to retrieve the information from the local storage.
         <br><br>
+         Storing and Retrieving Simple Data<br/><br/>
+         <div class="center">
+         <button onclick="getName()">Show Name</button>
+         <button onclick="getBYear()">Show Birth Year</button>
+         <button onclick="getBMonth()">Show Birth Month</button>
+         <button onclick="getNKids()">Show Number of Kids</button>
+         </div>
         
-     </form>   
+        
+         <div class="output">
+             
+             <p id='getoutput'></p>
+          </div>
+         Storing and retrieving arrays/associative arrays<br/><br/>
+     </section>   
      </div>
      
 </main>
@@ -88,7 +96,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/scroll.js"></script>
-    <script src="scripts/week2.js"></script>
+    <script src="scripts/topic5.js"></script>
   
 </body>
 </html>
