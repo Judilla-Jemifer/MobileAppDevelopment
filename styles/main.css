@@ -613,3 +613,9 @@ button {
     color: white;
 }
 
+#btn {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
