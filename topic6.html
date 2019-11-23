@@ -14,7 +14,7 @@
   <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
   <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
   <link href="styles/large.css" rel="stylesheet">
-    <link href="styles/week7.css" rel="stylesheet">
+   
 
 </head> 
 <body>
@@ -36,51 +36,50 @@
   <nav id="navbar" class="navbar">
     <button onclick="toggleNavMenu()">&#9776;</button>
      <ul id="primaryNav" class="hide">
-    	<li><a href="index.html">Week 2</a></li>
-    	<li ><a href="week3.html">Week 3</a></li>
-    	<li><a href="week4.html">Week 4</a></li>
-        <li><a href="week5.html">Week 5</a></li>
-        <li><a href="week6.html">Week 6</a></li>
-         <li class="active"><a href="week7.html">Week 7</a></li>
+    	<li><a href="topic2.html">Topic 2</a></li>
+    	<li><a href="topic3.html">Topic 3</a></li>
+         <li><a href="topic4.html">Topic 4</a></li>
+         <li><a href="topic5.html">Topic 5</a></li>
+          <li class="active"><a href="topic6.html">Topic 6</a></li>
+         <li><a href="topic7.html">Topic 7</a></li>
+         <li><a href="topic8.html">Topic 8</a></li>
+         <li><a href="topic9.html">Topic 9</a></li>
+         <li><a href="topic10.html">Topic 10</a></li>
+         <li><a href="topic11.html">Topic 11</a></li>
+         <li><a href="topic12.html">Topic 12</a></li>
+         <li><a href="topic13.html">Topic 13</a></li>
     </ul>	
   </nav>
     
  <main>
    <div class="left-align">
-     <h2>Designing, Defining, and Triggering <strong>CSS Animations</strong> without Custom Libraries</h2> 
+     <h2>DOM Manipulation Using createElement, appendChild, insertBefore, removeChild, etc.</h2> 
  
 
-     <p>Please see below for my demonstration of the topics mentioned above. The script related to this can be found in week7.css file. Thanks!</p>
-     
-
-     <p>The properties used for CSS animations are:</p>
-       <ul class="indent">
-           <li>@keyframes</li>
-           <li>animation-name</li>
-           <li>animation-duration</li>
-           <li>animation-delay</li>
-           <li>animation-iteration-count</li>
-           <li>animation-direction</li>
-           <li>animation-timing-function</li>
-           <li>animation-fill-mode</li>
-           <li>animation</li>
-       </ul>
+     <p>Please see below for my demonstration of the topics mentioned above. The script related to this can be found in week6.js file. Thanks!</p>
+ 
      </div>
      <br/>
-     <form class="calcform">
-        <div><h3 class="center">Creating CSS Transitions and Animations in CSS and Triggering them with Javascript</h3><br></div>
-
+     <section class="calcform">
+        <div><h3 class="center">Javascript Demonstration</h3></div>
+         <div id="mainpar">
+         <p id="par1">Adding a Paragraph using createElement() and appendChild()</p>
          
-        Click on the button below to see the shape animate using CSS: 
+          <p id="par2">This serves as a paragraph and we want to insert another paragraph next to this. There is an input textbox below where you can type your sample paragraph. When done typing, hitting the Append button creates a new paragraph element and append it next to this one.
+          </p>
+         </div>
+        
+         <textarea id="appendp" type="text" required style="height: 200px;"></textarea>
+         <button class="topic6btn" onclick="appendpar()">Append</button>
+         <button class="topic6btn" onclick="insertbfr()">Insert Before the 1st Paragraph</button><br/><br/>
+    
          
-         <div class="hoveranimation"></div>
+         
+         
          
         <br><br>
-     </form>   
+     </section>   
      
-     <p>
-         Aside from property and time duration of the transition, we can also add timing function and delay of the transition. 
-     </p>
      
      
 </main>
@@ -97,7 +96,7 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/scroll.js"></script>
-    <script src="scripts/week2.js"></script>
+    <script src="scripts/topic6.js"></script>
   
 </body>
 </html>

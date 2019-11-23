@@ -52,7 +52,7 @@ localStorage.setItem("quotes",JSON.stringify(message));
         
         //Loop to get a list from the data
         for (i=0; i<message.length; i++) {
-            txt += "<p>" + message[i] + " </p>";        
+            txt += "<p><em>" + message[i] + " </em></p>";        
     }
     
          document.getElementById("arrayoutput").innerHTML = txt;
@@ -68,7 +68,7 @@ function addarray() {
     localStorage.setItem("message2", JSON.stringify(message2));
       //Loop to get a list from the data
         for (i=message2.length-1; i<message2.length; i++) {
-            txt += "<p>" + message2[i] + " </p>";        
+            txt += "<p><em>" + message2[i] + " </em></p>";        
     }
     
          document.getElementById("arrayoutput").innerHTML = txt;
