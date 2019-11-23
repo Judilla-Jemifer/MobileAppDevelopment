@@ -608,7 +608,6 @@ div.left, div.right {
 button {
     padding: 10px 20px;
     display: inline-block;
-    border-radius: 10%;
     margin: auto;
     background: darkgray;
     color: white;
