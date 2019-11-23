@@ -3,14 +3,12 @@
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
-  font-size: 16px;
-    
-  /* Declare the base font-family - from google font api or other */
+  font-size: 14px;
+
     
 }
 
-header, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
-  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+header, main, footer {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     
@@ -186,17 +184,6 @@ main div form {
     margin: 0;
 }
 
-.donate {
-    font-size: 9px;
-     text-align: center;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 0;
-   
-    
-    
-}
 
 main figure { margin: 0 0 0 0 }
 main figure img { width: 100%;}
@@ -211,47 +198,14 @@ main {
 
 
 
-label {
-    display: block;
-    margin: 0.6em;
-}
-
-label span {
-    display: block;
-    color: #917a56;
-    padding-top: 0.5em;
-    padding-bottom: 0.2em;
-}
-
-form fieldset {
-    margin-bottom:15px;
-    background-color:#E8E8E8;
-    border-radius: 0.7em;
-    margin: 1.6em 0;
-    border: darkblue solid 1px;
-  
-
-}
-
-
-
-legend { 
-    color: darkblue;
-    margin-left: 6%;
-    padding: .5em;
-    border: darkgray solid 1px;
-    background-color: #f2eee7;
-    border-radius: .5em;
-}
-
-
-
 form {
     text-align: left;
     font-family: Ubuntu, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     margin: 3%;
 }
+
+
 
 
 input {
