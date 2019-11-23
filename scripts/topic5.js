@@ -60,8 +60,7 @@ localStorage.setItem("quotes",JSON.stringify(message));
 
 function addarray() {
     var input = document.getElementById('inputquote').value;
-    
-    
+    //we are retriving now a data here that we'll make an object to allow us to access each value using javascript.   
     var retrievedData = localStorage.getItem("quotes");
     var message2 = JSON.parse(retrievedData);
     
