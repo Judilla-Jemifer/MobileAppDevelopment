@@ -57,31 +57,7 @@
 }
 
 .ball:active {
-    margin-left: 250px;
-}
-
-.dease {
-    -webkit-transition: margin-left 1s ease;
-    transition: margin-left 1s ease 1s;
+    margin-left: 200px;
 }
 
 
-.dlinear {
-    -webkit-transition: margin-left 1s linear;
-    transition: margin-left 1s linear 1s;
-}
-
-.deasein {
-    -webkit-transition: margin-left 1s ease-in;
-    transition: margin-left 1s ease-in 1s;
-}
-
-.deaseout {
-    -webkit-transition: margin-left 1s ease-out;
-    transition: margin-left 1s ease-out 1s;
-}
-
-.deaseinout {
-    -webkit-transition: margin-left 1s ease-in-out;
-    transition: margin-left 1s ease-in-out 1s;
-}
