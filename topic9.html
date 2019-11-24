@@ -54,7 +54,7 @@
     
  <main>
    <div class="left-align">
-     <h2>Designing, Defining, and Triggering <strong>CSS Transitions</strong> without Custom Libraries</h2> 
+     <h2>Standard Javascript Events Including those for Mobile Devices and Animation and Transition Events</h2> 
  
 
      <p>Please see below for my demonstration of the topics mentioned above. The script related to this can be found in week9.css and week9.js files. Thanks!</p>
@@ -63,26 +63,26 @@
      
      </div>
      <br/>
-     <form class="calcform">
+     <section class="calcform">
         <div><h3 class="center">CSS Transition with Property and Duration</h3><br></div>
 
          
-        Hover on the shape below to see it transition using CSS: 
+        On mobile, the transition below will work if you touch it, and it will stop working when you stop touching it. If you're using a desktop, hover on the shape below to see it transition using CSS: 
          
-         <div class="hovertransition"></div>
+         <div ontouchstart="animatejs" id="t9animate" class="hovertransition"></div>
          
         <br><br>
-     </form>   
+     </section>   
      
      <p>
          Aside from property and time duration of the transition, we can also add timing function and delay of the transition. 
      </p>
      
-      <form class="calcform transitionform"><br/>
-        <div><h3 class="center">Standard JavaScript Events Including those for Mobile Devices and Animation and Transition Events</h3><br></div>
+      <section class="calcform transitionform"><br/>
+        <div><h3 class="center">Javascript Demonstration</h3><br></div>
 
          
-       Click and hold on the circles below to see it transition using CSS timing function: <br/><br/>
+       On mobile, you can touch each shape to see how it transitions. On desktop, click and hold for it to work. <br/><br/>
          
          <div class="ball ease">ease</div>
           <div class="ball linear">linear</div>
@@ -91,19 +91,8 @@
           <div class="ball easeinout">ease-in-out</div>
          
         <br><br>
-     </form> 
-     <form class="calcform"><br/>
-        <div><h3 class="center">CSS Transitions with Timing and Delay Properties</h3><br></div>
-     Now let's add 1s delay before the transtion takes effect. Click and hold on the circles below to see it transition using CSS timing with delay properties: <br/><br/>
-         
-         <div class="ball dease">ease</div>
-          <div class="ball dlinear">linear</div>
-          <div class="ball deasein">ease-in</div>
-          <div class="ball deaseout">ease-out</div>
-          <div class="ball deaseinout">ease-in-out</div>
-         
-        <br><br>
-     </form> 
+     </section> 
+     
 </main>
     
     <footer class="clearfix">

@@ -1,4 +1,4 @@
-.hovertransition {
+.hovertransition, .touchone {
     width: 150px;
     height: 150px;
     border-radius: 75px;
@@ -9,7 +9,7 @@
 
 }
 
-.hovertransition:hover {
+.hovertransition:hover, .touchone:hover {
     width: 300px;
     height: 300px;
     border-radius: 0px;
