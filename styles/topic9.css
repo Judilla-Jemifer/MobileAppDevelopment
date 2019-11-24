@@ -1,4 +1,4 @@
-.hovertransition, .touchone {
+.hovertransition {
     width: 150px;
     height: 150px;
     border-radius: 75px;
@@ -9,12 +9,14 @@
 
 }
 
-.hovertransition:hover, .touchone:hover {
+.hovertransition:hover, .touchone {
     width: 300px;
     height: 300px;
     border-radius: 0px;
     background-color: #5367AB;
 }
+
+
 
 .ball {
     width: 70px;
