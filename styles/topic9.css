@@ -1,4 +1,4 @@
-.hovertransition {
+.hovertransition, .touch1 {
     width: 150px;
     height: 150px;
     border-radius: 75px;
@@ -9,7 +9,7 @@
 
 }
 
-.hovertransition:hover, .touchone {
+.hovertransition:hover, .touch1 {
     width: 250px;
     height: 250px;
     border-radius: 0px;
