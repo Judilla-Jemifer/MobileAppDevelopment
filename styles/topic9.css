@@ -30,28 +30,28 @@
     color: white;
 }
 
-.ease {
+.ease, .touchball1 {
     -webkit-transition: margin-left 1s ease;
     transition: margin-left 1s ease;
 }
 
 
-.linear {
+.linear, .touchball2 {
     -webkit-transition: margin-left 1s linear;
     transition: margin-left 1s linear;
 }
 
-.easein {
+.easein, .touchball3 {
     -webkit-transition: margin-left 1s ease-in;
     transition: margin-left 1s ease-in;
 }
 
-.easeout {
+.easeout, .touchball4 {
     -webkit-transition: margin-left 1s ease-out;
     transition: margin-left 1s ease-out;
 }
 
-.easeinout {
+.easeinout, .touchball5 {
     -webkit-transition: margin-left 1s ease-in-out;
     transition: margin-left 1s ease-in-out;
 }
