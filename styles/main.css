@@ -40,17 +40,13 @@ p, main li {
 
 
 
-.wrapbutton {
-    overflow: hidden;
-}
+
 
 .navbar {
-  
-    z-index: 1;
     position: fixed;
     top: 0;
     width: 100%;
-   
+    display: block;
     box-shadow: 5px 5px 5px gray;
     transition: top 0.3s;
     
@@ -65,7 +61,8 @@ nav button {
     color: lightgray;
     margin-top: 0px;
     margin-right: 0px;
-    padding: 15px 15px 15px 0px;    
+    padding: 15px 15px 15px 0px; 
+    display: block;
    
 }
 
@@ -75,28 +72,29 @@ nav {
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0;
     margin-top: 0;
-
+   display: block;
     background-color: #2B3856;
 
 
 }
 
 nav ul { 
-    background-color: white;
+    display: block;
     list-style-type: none;
     padding: 0;
     margin: 0;
+    margin-top: 60px;
    
 }
-
+nav ul li {
+    display: block;
+}
 nav ul li a {
     display: block;
-    float: left;
     padding: 0.8rem 2%;
     text-decoration: none;
-    color: black;
-    border-top:1px solid rgba(0,0,0,0.3);
-    border-bottom:1px solid rgba(0,0,0,0.3);
+    color: white;
+    text-align: center;
     
 }
 nav ul li.active a {background-color: whitesmoke; color: black}
