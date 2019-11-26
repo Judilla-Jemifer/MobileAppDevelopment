@@ -8,7 +8,7 @@ function requestJSON() {
             
         }
     };
-    xml.open("GET","http://www.filltext.com/?rows=10&pretty=true&ID={index}&fname={firstName}&lname={lastName}&business={business}&address={addressObject}",true);
+    xml.open("GET","https://www.filltext.com/?rows=10&pretty=true&ID={index}&fname={firstName}&lname={lastName}&business={business}&address={addressObject}",true);
     xml.send();
     
     function getData(data) {
