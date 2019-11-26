@@ -1,6 +1,6 @@
 function requestJSON() {
     var xml = new XMLHttpRequest();
-    var url = "https://www.quackit.com/json/tutorial/artists.txt";
+    
     xml.onreadystatechange = function() {
         if (xml.readyState == 4 && xml.status == 200) {
             var parsedData = JSON.parse(xml.responseText);
@@ -8,7 +8,7 @@ function requestJSON() {
             
         }
     };
-    xml.open("GET","https://www.filltext.com/?rows=10&pretty=true&ID={index}&fname={firstName}&lname={lastName}&business={business}&address={addressObject}",true);
+    xml.open("GET","http://www.filltext.com/?rows=10&pretty=true&ID={index}&fname={firstName}&lname={lastName}&business={business}&address={addressObject}");
     xml.send();
     
     function getData(data) {
